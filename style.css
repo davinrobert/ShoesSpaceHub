@@ -1,0 +1,644 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  color: #222;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #595959;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+
+
+#signup{
+  width: 400px;
+  height: 520px;
+  padding: 40px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+#signup h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#signup input{
+  width: 92%;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #ededed;
+}
+
+#signup button{
+  width: 60%;
+  font-size: 15px;
+  margin: 30px 0;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#signup .member{
+  font-size: 15px;
+  color: #999;
+}
+
+#signup .member a{
+  text-decoration: none;
+}
+
+#login{
+  width: 400px;
+  height: 520px;
+  padding: 40px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+#login h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#login input{
+  width: 92%;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #ededed;
+}
+
+#login button{
+  width: 60%;
+  font-size: 15px;
+  margin: 30px 0;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#login .member{
+  font-size: 15px;
+  color: #999;
+}
+
+#login .member a{
+  text-decoration: none;
+}
+
+/* Header Styles */
+#header {
+  display: flex;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header .active p{
+  color: #000000 ;
+}
+
+#header i{
+  font-size: 20px;
+}
+#header h1{
+  padding-right: 80px;
+}
+
+#header .fa-user{
+  margin-right: 20px;
+}
+
+#header .pilihan{
+  display: flex;
+}
+
+#header ul{
+  margin-right: 30px;
+}
+
+#header .right-icon{
+  width: 200px;
+  text-align: right;
+}
+
+#header .login-status {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+#moto {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#product1 .pro:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#product1 .pro img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span{
+  color: #595959;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .des h4 {
+  padding-top: 2px;
+  color: #1a1a1a;
+  font-size: 20px;
+}
+#product1 .pro .cart {
+  margin-bottom: 10px;
+}
+
+#product1 a{
+  color: #000;
+}
+
+
+
+/* Style untuk tabel */
+#cart{
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  table-layout: fixed;
+}
+
+#cart h4{
+  font-size: 30px;
+  padding-left: 18px;
+}
+
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#cart table td, table tr {
+  padding: 20px;
+}
+
+/* Style untuk judul kolom */
+#cart table thead tr {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#cart table td.hapus{
+  width: 70px;
+  text-align: center;
+}
+
+#cart table td.no{
+  width: 70px;
+  text-align: center;
+}
+
+
+#cart table td.harga {
+  width: 150px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+#cart table td.ukuran{
+  width: 120px;
+  text-align: center;
+}
+
+#cart table td.jumlah{
+  width: 120px;
+  text-align: center;
+}
+
+#cart table td.subtotal {
+  width: 150px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+/* Style untuk tombol penghapusan */
+#cart table td a i {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* Style untuk pesan "Keranjang kosong" */
+#cart table td[colspan='9'] {
+  text-align: center;
+  padding: 80px 0;
+  font-style: italic;
+  color: gray;
+}
+
+#cart table tbody{
+  border-bottom: 1px solid #ddd;
+}
+
+#checkout {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#pembeli {
+  flex-basis: 45%;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#subtotal {
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+#pembeli input[type="text"],
+#pembeli select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#pembeli p {
+  margin-bottom: 10px;
+}
+
+
+#pembeli select {
+  cursor: pointer;
+}
+
+#pembeli input[type="text"]::placeholder {
+  color: #999;
+}
+
+#pembeli input[type="text"]:focus,
+#pembeli select:focus {
+  outline: none;
+  border-color: #6e95e6;
+}
+
+#pembeli button {
+  padding: 10px 20px;
+  background-color: #6e95e6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#pembeli button:hover {
+  background-color: #5884c5;
+}
+
+#subtotal h3 {
+  text-align: center;
+}
+#subtotal button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#subtotal button:hover {
+  background-color: #45a049;
+}
+
+#subtotal table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#subtotal table td {
+  padding: 5px;
+  text-align: right;
+}
+
+#subtotal table .total {
+  text-align: left;
+}
+
+
+
+
+.section-inv{
+  padding: 40px 150px;
+}
+
+#inv{
+  padding-top: 0px;
+}
+
+#invheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#invsubheader{
+  display: flex;
+  justify-content: space-between;
+}
+
+#invheader .left-icon a{
+  text-decoration: none;
+  color: #000;
+}
+
+#invsubheader .titikdua{
+  width: 10px;
+  vertical-align: top;
+}
+
+#invsubheader .kiri{
+  width: 150px;
+  vertical-align: top;
+}
+
+#invsubheader .invPembeli{
+  width: 500px;
+}
+
+#inv table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#inv table td, table tr {
+  padding: 10px;
+}
+
+/* Style untuk judul kolom */
+#inv table thead tr {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#inv table td.harga {
+  width: 150px;
+  text-align: right;
+  padding-right: 40px;
+}
+
+#inv table td.ukuran{
+  width: 120px;
+  text-align: center;
+}
+
+#inv table td.jumlah{
+  width: 120px;
+  text-align: center;
+}
+
+#inv table td.subtotal {
+  width: 150px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+/* Style untuk pesan "Keranjang kosong" */
+#inv table td[colspan='9'] {
+  text-align: center;
+  padding: 80px 0;
+  font-style: italic;
+  color: gray;
+}
+
+#inv table tbody{
+  border-bottom: 1px solid #ddd;
+}
+
+#invpembayaran{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-top: 1px solid #ddd;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .coll{
+  text-align: right;
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 750px) {
+  header {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+  }
+
+  #header h1{
+    font-size: 40px;
+  }
+
+  #header i {
+      font-size: 20px;
+    }
+
+  #header  .right-icon {
+    margin-left: 20px;
+  }
+}
+
+/* single product */
+#prodetail{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+#prodetail .single-pro-image{
+  width: 30%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 32%;
+  cursor: pointer;
+}
+
+#prodetail .single-pro-details{
+  width: 20%;
+  padding-top: 70px;
+}
+
+#prodetail .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetail .single-pro-details input{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+#prodetail .single-pro-details button{
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  background-color: #000;
+  color: #ffffff;
+}
